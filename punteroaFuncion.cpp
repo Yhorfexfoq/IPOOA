@@ -20,7 +20,7 @@ float division (float a,float b)
 int main()
 {
     int opc,a,b;
-    float (*f[4])(int,int)={suma,resta,multiplicacion,division};
+    float (*f[4])(float,float)={suma,resta,multiplicacion,division};
     cout<<"ingrese valores de a y b: \n"; cin>>a>>b;
     cout<<"(0)suma, (1)resta, (2)multiplicacion, (3)divicion\n";
     while (true){
